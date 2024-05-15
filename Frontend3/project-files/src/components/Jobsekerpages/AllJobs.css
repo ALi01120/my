@@ -1,0 +1,189 @@
+/* Main container */
+.all_container {
+  width: 100%;
+  padding-top: 40px; /* Adjust to accommodate the header */
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+/* Header Styles */
+.header {
+  background-color: #4a90e2; /* Maritime blue */
+  padding: 80px 0;
+  text-align: center;
+}
+
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #fff; /* White text color */
+}
+
+.header p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  color: #f0f0f0; /* Lighter text color */
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  padding: 15px;
+  border: 2px solid #4a90e2; /* Maritime blue border */
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 60%; /* Adjust as needed */
+}
+
+.search-box button {
+  padding: 15px 30px;
+  background-color: #c94ae2; /* Maritime blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #0077cc; /* Darker shade of maritime blue */
+}
+
+/* Filters Container */
+.filters1 {
+  background-color: #f0f8ff; /* Alice blue */
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px; /* Adjust as needed */
+  position: absolute;
+  left: 5px;
+  top: 430px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for subtle depth */
+}
+
+.filters1 h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.filters1 label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.filters1 select,
+.filters1 input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd; /* Light border */
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+
+.job-box {
+  background-color: #f0f8ff; /* Alice blue */
+  border: 1px solid #b0c4de; /* Lighter blue border */
+  border-radius: 10px;
+  padding-top: 5px;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for subtle depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+.job-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow on hover */
+}
+
+.job-box p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.job-box button {
+  background-color: #4682b4; /* Steel blue */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.job-box button:hover {
+  background-color: #36648b; /* Darker shade of steel blue */
+}
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Job Details */
+.job-details {
+  background-color: #f0f8ff; /* Alice blue */
+  border: 1px solid #b0c4de; /* Lighter blue border */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.job-details button {
+  background-color: #dc3545; /* Red */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.job-details button:hover {
+  background-color: #bd2130; /* Darker shade of red */
+}
+/* Pagination Styles */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 10px;
+}

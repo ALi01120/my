@@ -1,0 +1,68 @@
+/* Hero.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    padding: 12px 0;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    transition: all 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-ul li {
+    margin: 0 2px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-link:hover {
+    color: #ffcc00;
+}
+
+.navbar-button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+    background-color: #ffc700;
+}

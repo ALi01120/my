@@ -1,0 +1,52 @@
+.applications-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .applications-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .applications-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .applications-container li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .applications-container li p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .applications-container button {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Red color for button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+  }
+  
+  .applications-container button:hover {
+    background-color: #bd2130; /* Darker shade of red on hover */
+  }
+  
+  .applications-container button:focus {
+    outline: none;
+  }
+  
+  .applications-container button:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,48 @@
+.create-job-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 100px;
+  
+  
+  
+}
+
+.create-job-container h2 {
+  margin-top: 0;
+}
+
+.create-job-container form {
+  display: grid;
+  grid-gap: 15px;
+}
+
+.create-job-container label {
+  font-weight: bold;
+}
+
+.create-job-container input[type="text"],
+.create-job-container textarea,
+.create-job-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.create-job-container button[type="submit"] {
+  background-color: #00ff37;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.create-job-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.create-job-container button[type="submit"]:focus {
+  outline: none;
+}

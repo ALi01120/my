@@ -1,0 +1,168 @@
+/* indexHomePage.css */
+
+/* Header Styles */
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.header1 img {
+    width: 100%;
+    max-height: 600px; /* Max height for the image */
+    object-fit: cover; /* Scale the image to cover the entire header */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Text Overlay Styles */
+.text-overlay1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.text-overlay1 h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.text-overlay1 p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Join Now Button Styles */
+.join-now-button {
+    background-color: #1eff00;
+    color: #fff;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    position: absolute;
+    top: 165px;
+    left: 130px;
+
+}
+
+.join-now-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Section Styles */
+.news-section,
+.education-section1,
+.future-section {
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Change cursor to pointer when hovering over sections */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.news-section h2,
+.education-section1 h2,
+.future-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Images Container Styles */
+.news-images,
+.education-images,
+.future-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Image Container Styles */
+.image-container {
+    width: calc(30% - 20px);
+    position: relative;
+    cursor: pointer; /* Change cursor to pointer when hovering over images */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container p {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 1em;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover p {
+    opacity: 1;
+}
+
+.image-container:hover {
+    transform: scale(1.1); /* Zoom effect on image hover */
+}
+
+/* Footer Styles */
+.footer1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    /* Adjust header image size for smaller screens */
+    .header1 img {
+        max-height: 300px;
+    }
+
+    /* Adjust join now button position */
+    .join-now-button {
+        top: 80%;
+    }
+
+    /* Adjust image container width for smaller screens */
+    .image-container {
+        width: calc(50% - 20px);
+    }
+
+    /* Adjust font size for section headings on smaller screens */
+    .news-section h2,
+    .education-section h2,
+    .future-section h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Fade-in Animation for the Page */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the Fade-in Animation to the Entire Page */
+body {
+    animation: fadeIn 1s ease-in-out;
+}

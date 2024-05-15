@@ -1,0 +1,73 @@
+#course-management-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #courses-heading {
+    margin-bottom: 20px;
+  }
+  
+  .course-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .course-table th,
+  .course-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .course-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .course-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .course-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .view-lessons-btn,
+  .update-course-btn,
+  .delete-course-btn,
+  .update-lesson-btn,
+  .delete-lesson-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .view-lessons-btn:hover,
+  .update-course-btn:hover,
+  .delete-course-btn:hover,
+  .update-lesson-btn:hover,
+  .delete-lesson-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .selected-course-lessons {
+    margin-top: 20px;
+  }
+  
+  #lessons-heading {
+    margin-bottom: 10px;
+  }
+  
+  .lessons-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lessons-list li {
+    margin-bottom: 5px;
+  }
+  

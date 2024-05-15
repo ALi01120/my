@@ -1,0 +1,91 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#head1{
+ text-align: center;
+}
+
+.Register-form {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+}
+
+.img-contanter {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-image {
+  max-width: 100%;
+  height: auto;
+  width: 80%;
+}
+
+.form-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.input-field1,
+.select-field1 {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none; /* Remove all borders */
+  border-bottom: 1px solid #ccc; /* Add bottom border */
+  border-radius: 0; /* Remove border radius */
+  transition: border-bottom-color 0.3s ease; /* Add transition effect to bottom border */
+}
+
+.input-field1:focus,
+.select-field1:focus {
+  outline: none;
+  border-bottom-color: #007bff; /* Change bottom border color on focus */
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message1 {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .Register-form {
+    flex-direction: column;
+  }
+  .img-contanter {
+    display: none;
+  }
+}

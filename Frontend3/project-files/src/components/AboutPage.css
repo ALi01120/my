@@ -1,0 +1,41 @@
+/* AboutPage.css */
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.about-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.about-content h1 {
+    font-size: 2em; /* Large font size for heading */
+    margin-bottom: 20px; /* Add spacing below heading */
+}
+
+.about-content p {
+    font-size: 1em; /* Normal font size for paragraphs */
+    line-height: 1.6; /* Increase line height for readability */
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+    color: #888; /* Light gray color for disclaimer */
+    font-style: italic; /* Italicize disclaimer text */
+}
+
+.about-content ul {
+    list-style-type: disc; /* Use bullets for unordered list */
+    margin-left: 20px; /* Add indentation for list items */
+}
+
+.about-content ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.about-content p.disclaimer {
+    color: #888; /* Light gray color for disclaimer */
+    font-style: italic; /* Italicize disclaimer text */
+}

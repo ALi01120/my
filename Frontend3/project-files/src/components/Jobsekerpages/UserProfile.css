@@ -1,0 +1,82 @@
+.user-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-profile-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-container p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .update-heading {
+    margin-top: 20px;
+  }
+  
+  .success-message {
+    color: #28a745; /* Green color for success message */
+    margin-top: 10px;
+  }
+  
+  .update-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color for update button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+    margin-top: 10px;
+  }
+  
+  .update-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
+  .update-button:focus {
+    outline: none;
+  }
+  
+  .update-form-container {
+    margin-top: 20px;
+  }
+  
+  .update-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-form label {
+    margin-bottom: 5px;
+  }
+  
+  .update-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+  }
+  
+  .update-form button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green color for update button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+  }
+  
+  .update-form button:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+  }
+  
+  .update-form button:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,79 @@
+.create-course-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.course-form,
+.lesson-form {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  transition: all 0.3s ease;
+}
+
+.course-form h2,
+.lesson-form h2 {
+  margin-top: 0;
+}
+
+.course-form label,
+.lesson-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.course-form input,
+.course-form textarea,
+.lesson-form input,
+.lesson-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.course-form input:focus,
+.course-form textarea:focus,
+.lesson-form input:focus,
+.lesson-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.course-form .submit-button,
+.lesson-form .submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.course-form .submit-button:hover,
+.lesson-form .submit-button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .create-course-container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .course-form,
+  .lesson-form {
+    padding: 15px;
+  }
+}

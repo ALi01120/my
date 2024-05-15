@@ -1,0 +1,36 @@
+.client-job-applications-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .client-job-applications-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .client-job-applications-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .client-job-applications-container li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-job-applications-container li p {
+    margin: 0;
+  }
+  
+  .client-job-applications-container li p strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  

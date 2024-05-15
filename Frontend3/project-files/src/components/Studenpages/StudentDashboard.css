@@ -1,0 +1,203 @@
+/* View Courses Container */
+.start01 h1 {
+  color: #2c3e50; /* Deep Blue */
+  position: absolute;
+  top: 70px;
+  left: 280px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header02 {
+  width: 75%;
+  height: 170px;
+  background-color: rgba(23, 162, 184, 0.8); /* Ocean Blue */
+  position: absolute;
+  top: 25%;
+  left: 280px;
+  border-radius: 10px;
+  margin: 5px;
+  color: #fff;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header02:hover {
+  background-color: rgba(23, 162, 184, 1); /* Darker Ocean Blue */
+}
+
+.view-courses-container01 {
+  width: 1000px;
+  height: auto; /* Adjusted to content */
+  max-height: 600px; /* Maximum height */
+  overflow-y: auto; /* Scroll if content exceeds height */
+  position: absolute;
+  top: 450px;
+  left: 280px;
+  border-radius: 25px;
+  background-color: rgba(241, 243, 246, 0.8); /* Light Grayish Blue */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.view-courses-container01:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Course Card */
+.course-card01 {
+  background-color: #f8f9fa; /* Light Gray */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative; /* Added */
+}
+
+.course-card01:before { /* Added pseudo-element for decoration */
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1)); /* Gradient overlay */
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.course-card01:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course-card01 strong {
+  color: #0d6efd; /* Dark Blue */
+  text-align: center;
+  justify-content: center;
+}
+
+.course-card01 p {
+  color: #6c757d; /* Gray */
+  font-family: sans-serif;
+}
+
+.course-card01 button {
+  padding: 8px 16px;
+  background-color: #20c997; /* Ocean Green */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.course-card01 button:hover {
+  background-color: #198754; /* Darker Ocean Green */
+}
+
+/* Filters */
+.filters01 {
+  width: 250px;
+  height: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: fixed;
+  top: 50px;
+  overflow-y: auto; /* Scroll if content exceeds height */
+}
+
+.filters01 h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.filters01 label {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.filters01 input {
+  width: 100%;
+  padding: 6px;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Modal */
+.modal01 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content01 {
+  background-color: #fefefebe;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.close01 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close01:hover,
+.close01:focus {
+  color: black;
+  text-decoration: none;
+}
+
+/* Pagination */
+.pagination01 {
+  margin-top: 20px;
+}
+
+.pagination01 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.pagination01 ul li {
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.pagination01 ul li:hover {
+  background-color: #e5e5e5;
+}
+
+.pagination01 ul li.active {
+  background-color: #0d6efd; /* Dark Blue */
+  color: #fff;
+}

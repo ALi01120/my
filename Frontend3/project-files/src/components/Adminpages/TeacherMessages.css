@@ -1,0 +1,98 @@
+.teacher-messages-container2 {
+    padding-top: 80px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .message-list2 {
+    margin-bottom: 20px;
+  }
+  
+  .message-list2 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .message-list2 li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .message-list2 li.active {
+    background-color: #e0e0e0;
+  }
+  
+  .reply-section2 textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .reply-section2 button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reply-section2 button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .message-content {
+    flex: 1;
+  }
+  
+  .message-sender {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message-text {
+    margin-bottom: 10px;
+  }
+  
+  .reply-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reply-popup textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .reply-popup button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reply-popup button:hover {
+    background-color: #0056b3;
+  }
